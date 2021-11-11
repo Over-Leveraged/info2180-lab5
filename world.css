@@ -1,1 +1,74 @@
 /* Add your own styles */
+
+body{
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    background-color:#e6e6ff ;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+main{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+
+table { 
+    border-spacing: 20px 2px;
+    border-collapse: separate;
+    text-align: center;
+    width: 400px;
+    /* margin-left: 25%;
+    margin-top: 10%; */
+    margin-top: 5%;
+}
+th{
+    text-align:center;
+    background-color: #5A67D8;
+    color:rgb(253, 247, 247);
+    border:1px solid #152D35;
+}
+
+td{
+    padding: 20px;
+    text-align:center;
+}
+
+tr:hover{
+    background-color: #5a67d89f;
+    cursor: pointer;
+}
+
+button{
+    background-color: #5A67D8;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-style: none;
+    outline-style: none;
+}
+button:hover{
+    background-color: #5a67d89f;
+    height: 32px;
+    width: 130px;
+    cursor: pointer;
+}
+
+#lookupCity{
+    
+    margin: 2%;
+    margin-left: 58.2%;
+}
+
+#country{
+    border-radius: 5px;
+    padding: 5px;
+}
+label{
+    padding: 2%;
+    font-size: 155%;
+}
